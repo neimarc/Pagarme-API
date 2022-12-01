@@ -1,14 +1,14 @@
 {
   "name": "api-pagarme",
   "version": "1.0.0",
-  "description": "",
+  "description": "API de Pagamentento da Pagarme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon ./src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Neimar",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.2.0",
@@ -16,5 +16,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neimarc/Pagarme-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neimarc/Pagarme-API/issues"
+  },
+  "homepage": "https://github.com/neimarc/Pagarme-API#readme"
 }
