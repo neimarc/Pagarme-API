@@ -10,7 +10,11 @@ const criarPedidos = async (req, res) => {
 
         return res.json(pedido.data)
     } catch (error) {
+        const { status, data: { errors } } = error.response;
 
+        return res.status(status).json({
+            erro: `${errors[0].parameter_name} - ${errors[0].message}`
+        });
     }
 }
 
