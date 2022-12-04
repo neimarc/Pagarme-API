@@ -5,6 +5,6 @@ const rotas = express();
 
 
 rotas.post('/criar-pedido', pedidos.criarPedidos);
-rotas.get('/consultar-pedido', pedidos.consultarPedidos);
+rotas.get('/consultar-pedido/:id', pedidos.consultarPedidos);
 
 module.exports = rotas
