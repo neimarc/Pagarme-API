@@ -1,7 +1,7 @@
 {
   "name": "api-pagarme",
   "version": "1.0.0",
-  "description": "API de Pagamentento da Pagarme",
+  "description": "API de Pagamento da Pagarme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
